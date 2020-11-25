@@ -1,0 +1,23 @@
+
+---- training -----
+
+(train_x, train_t)
+    |        |
+    |        |
+    |        |
+  {w,b}<--- loss
+    |        |
+    a-->z    |
+    |        |
+    |------> y
+
+
+---- testing -----
+
+(test_x, test_t)
+    |        |
+  {w,b}      |
+    |     accuracy
+    a-->z    |
+    |        |
+    |------> y
