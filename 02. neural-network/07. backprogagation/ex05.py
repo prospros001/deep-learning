@@ -40,3 +40,13 @@ def forward_propagation(x):
 network.forward_propagation = forward_propagation
 loss = network.loss(_x, _t)
 print(loss)
+
+
+def forward_propagation(x):
+    y = softmax(x)
+    return y
+
+
+network.forward_propagation = forward_propagation
+loss = network.loss(_x, _t)
+print(loss)
